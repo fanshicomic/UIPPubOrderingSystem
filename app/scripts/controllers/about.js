@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name pubOsApp.controller:AboutCtrl
+ * @name pubOSApp.controller:AboutCtrl
  * @description
  * # AboutCtrl
- * Controller of the pubOsApp
+ * Controller of the pubOSApp
  */
-angular.module('pubOsApp')
+angular.module('pubOSApp')
   .controller('AboutCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',

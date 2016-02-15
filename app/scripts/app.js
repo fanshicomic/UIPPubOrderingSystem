@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name pubOsApp
+ * @name pubOSApp
  * @description
- * # pubOsApp
+ * # pubOSApp
  *
  * Main module of the application.
  */
 angular
-  .module('pubOsApp', [
+  .module('pubOSApp', [
     'ngAnimate',
     'ngAria',
     'ngCookies',

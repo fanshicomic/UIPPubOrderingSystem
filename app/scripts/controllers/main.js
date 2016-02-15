@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name pubOsApp.controller:MainCtrl
+ * @name pubOSApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the pubOsApp
+ * Controller of the pubOSApp
  */
-angular.module('pubOsApp')
+angular.module('pubOSApp')
   .controller('MainCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
