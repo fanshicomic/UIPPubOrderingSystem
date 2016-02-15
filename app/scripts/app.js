@@ -31,6 +31,11 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/signin', {
+        templateUrl: 'views/sign_in.html',
+        controller: 'SignInCtrl',
+        controllerAs: 'signin'
+      })
       .otherwise({
         redirectTo: '/'
       });
