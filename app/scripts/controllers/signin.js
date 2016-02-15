@@ -8,6 +8,8 @@
  * Controller of the pubOSApp
  */
 angular.module('pubOSApp')
-  .controller('SignInCtrl', function () {
-    
-  });
+	.controller('SignInCtrl', ['$scope', 'AccountSvc', function($scope, AccountSvc) {
+		$scope.signIn = function(username, password) {
+			AccountSvc.signIn(username, password);
+		};
+	}]);
