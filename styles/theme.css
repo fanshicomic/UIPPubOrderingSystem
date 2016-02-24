@@ -6,6 +6,11 @@
 
 }
 
+.content {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
 .pub-footer {
 	padding-bottom: 15px;
 	padding-top: 15px;
