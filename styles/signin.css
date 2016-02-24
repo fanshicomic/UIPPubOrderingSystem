@@ -1,0 +1,17 @@
+.signin-window {
+	margin-top:10%;
+}
+
+.signin-window .form-signin {
+	width: 30%;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.signin-window .form-signin .input-field {
+	margin-top:10px;
+}
+
+.signin-window .form-signin .submit-btn {
+	margin-top: 15px;
+}
